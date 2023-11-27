@@ -17,7 +17,6 @@ int main(){
 		Sedan sedan1;
 		Camioneta camioneta1;
 		Moto moto1;
-		RegistroClientes registro1;
 		
 		string marca;
 		string tipo;
