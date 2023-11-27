@@ -1,3 +1,5 @@
+#ifndef VEHICULO_H
+#define VEHICULO_H
 #include <iostream>
 using namespace std;
 
@@ -46,8 +48,9 @@ void Vehiculo::setTipo(string tip){
 }
 
 void Vehiculo::imprimeVehiculo(){
-	cout<<"Datos del vehiculo: "<<endl;
 	cout<<"Ano: "<<ano<<endl;
 	cout<<"Marca: "<<marca<<endl;
 	cout<<"Tipo: "<<tipo<<endl;
 }
+
+#endif
