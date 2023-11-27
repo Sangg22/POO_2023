@@ -12,11 +12,14 @@ class Lavado{
 		void imprimeLavado() const;
 };
 
-Lavado::Lavado() : precio(0) {}
+Lavado::Lavado() {
+	precio = 0;
+}
+
 void Lavado::setPrecio(int pre){
 	precio = pre;
 }
 
 void Lavado::imprimeLavado() const{
-	std::cout<<"El precio sera de: $"<<precio<<std::endl;
+	cout<<"El precio del lavado sera de: $"<<precio<<endl;
 }
