@@ -42,18 +42,14 @@ int main(){
 		cin>>ano;
 		
 		if (tipo == "sedan"){
-			precio = 80;
-		}
+			precio = 80;}
 		else if (tipo == "camioneta"){
-			precio = 110;
-		}
+			precio = 110;}
 		else if (tipo == "moto"){
-			precio = 40;
-		}
+			precio = 40;}
 		else {
 			cout<<"Tipo de auto no reconocido."<<endl;
 		}
-		
 		lavado1.setPrecio(precio);
 		
 		cliente1.setNombre(nombre);
@@ -75,14 +71,19 @@ int main(){
 		moto1.setMarca(marca);
 		moto1.setTipo(tipo);
 		
+		if(tipo == "sedan"){
+		sedan1.imprimeSedan();
+		}
+		else if(tipo == "camioneta"){
+		camioneta1.imprimeCamioneta();
+		}
+		else if(tipo == "moto"){
+		moto1.imprimeMoto();
+		}
 		registro1.agregarCliente(cliente1);
 		
 		cliente1.imprimeCliente();
 		lavado1.imprimeLavado();
-		sedan1.imprimeSedan();
-		camioneta1.imprimeCamioneta();
-		moto1.imprimeMoto();
-		
 		registro1.mostrarClientes();
 		
 		char respuesta;
