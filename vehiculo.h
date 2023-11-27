@@ -11,8 +11,7 @@ class Vehiculo{
 		int ano;
 		
 	public:
-		Vehiculo(){
-		};
+		Vehiculo();
 		Vehiculo(string mar, string tip, int an);
 		int getAno();
 		string getMarca();
@@ -23,6 +22,17 @@ class Vehiculo{
 		void imprimeVehiculo();
 };
 
+Vehiculo::Vehiculo(){
+	marca = "";
+	ano = 0;
+	tipo = "";
+}
+
+Vehiculo::Vehiculo(string mar, string tip, int an){
+	marca = mar;
+	tipo = tip;
+	ano = an;
+} 
 int Vehiculo::getAno(){
 	return ano;
 }
