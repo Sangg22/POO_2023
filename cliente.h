@@ -1,3 +1,5 @@
+#ifndef CLIENTE_H
+#define CLIENTE_H
 #include <iostream>
 using namespace std;
 
@@ -8,8 +10,7 @@ class Cliente{
 		string numero;
 		
 	public:
-		Cliente(){
-		};
+		Cliente();
 		Cliente(string nom, string num);
 		string getNom();
 		string getNum();
@@ -17,6 +18,16 @@ class Cliente{
 		void setNumero(string num);
 		void imprimeCliente();
 };
+
+Cliente::Cliente(){
+	nombre = "";
+	numero = "";
+}
+
+Cliente::Cliente(string nom, string num){
+	nombre = nom;
+	numero = num;
+} 
 
 string Cliente::getNom(){
 	return nombre;
@@ -39,3 +50,6 @@ void Cliente::imprimeCliente(){
 	cout<<"Nombre: "<<nombre<<endl;
 	cout<<"Numero: "<<numero<<endl;
 }
+
+
+#endif
