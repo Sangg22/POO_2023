@@ -1,3 +1,6 @@
+//Clase que servira para agregar clientes a una lista de los mismos
+//Santiago Isai González Arista- A01712184	
+//03/12/23
 #ifndef REGISTROCLIENTE_H
 #define REGISTROCLIENTE_H
 #include <iostream>
