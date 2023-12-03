@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-#include "vehiculo.h"
+#include "Vehiculo.h"
 
 //clase hija de "vehiculo"
 class Moto : public Vehiculo {
