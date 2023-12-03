@@ -1,3 +1,6 @@
+//Clase padre que almacenara todos los datos del vehiculo sin importar el tipo de este
+//Santiago Isai González Arista- A01712184	
+//03/12/23
 #ifndef VEHICULO_H
 #define VEHICULO_H
 #include <iostream>
