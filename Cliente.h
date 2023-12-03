@@ -1,3 +1,6 @@
+//Clase para almacenar todos los datos de un cliente
+//Santiago Isai González Arista- A01712184	
+//03/12/23
 #ifndef CLIENTE_H
 #define CLIENTE_H
 #include <iostream>
