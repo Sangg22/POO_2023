@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "lavado.h"
+#include "Lavado.h"
 #include "RegistroCliente.h"
 #include "Sedan.h"
 #include "Camioneta.h"
