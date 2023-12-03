@@ -1,3 +1,6 @@
+//Programa .cpp en el que se llevara a cabo todos los procesos
+//Santiago Isai González Arista- A01712184	
+//03/12/23
 #include <iostream>
 #include <vector>
 #include "Lavado.h"
