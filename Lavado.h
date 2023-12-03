@@ -1,3 +1,6 @@
+//Clase que almacenara el precio del lavado segun el tipo
+//Santiago Isai González Arista- A01712184	
+//03/12/23
 #include <iostream>
 
 using namespace std;
