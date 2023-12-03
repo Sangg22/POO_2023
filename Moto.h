@@ -1,3 +1,6 @@
+//Clase hija de vehiculo en caso de que el vehiculo sea una moto
+//Santiago Isai González Arista- A01712184	
+//03/12/23
 #ifndef MOTO_H
 #define MOTO_H
 #include <iostream>
