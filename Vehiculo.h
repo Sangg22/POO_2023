@@ -5,36 +5,42 @@ using namespace std;
 
 class Vehiculo{
 	
-	private:
+	//datos con protected por ser clase padre
+	protected:
 		string marca;
 		string tipo;
-		int ano;
-		
+		int anio;
+	
+	//constructores, setters y getters	
 	public:
 		Vehiculo();
 		Vehiculo(string mar, string tip, int an);
-		int getAno();
+		int getAnio();
 		string getMarca();
 		string getTipo();
-		void setAno(int an);
+		void setAnio(int an);
 		void setMarca(string mar);
 		void setTipo(string tip);	
 		void imprimeVehiculo();
 };
 
+//constructor vacio
 Vehiculo::Vehiculo(){
 	marca = "";
-	ano = 0;
+	anio = 0;
 	tipo = "";
 }
 
+//constructor con datos que se otorgaran
 Vehiculo::Vehiculo(string mar, string tip, int an){
 	marca = mar;
 	tipo = tip;
-	ano = an;
+	anio = an;
 } 
-int Vehiculo::getAno(){
-	return ano;
+
+//getters:
+int Vehiculo::getAnio(){
+	return anio;
 }
 
 string Vehiculo::getMarca(){
@@ -45,8 +51,9 @@ string Vehiculo::getTipo(){
 	return tipo;
 }
 
-void Vehiculo::setAno(int an){
-	ano = an;
+//setters:
+void Vehiculo::setAnio(int an){
+	anio = an;
 }
 
 void Vehiculo::setMarca(string mar){
@@ -57,10 +64,11 @@ void Vehiculo::setTipo(string tip){
 	tipo = tip;
 }
 
+//impresion de datos de vehiculo
 void Vehiculo::imprimeVehiculo(){
-	cout<<"Ano: "<<ano<<endl;
-	cout<<"Marca: "<<marca<<endl;
-	cout<<"Tipo: "<<tipo<<endl;
+	cout << "anio: " << anio << endl;
+	cout << "Marca: " << marca << endl;
+	cout << "Tipo: " << tipo << endl;
 }
 
 #endif
