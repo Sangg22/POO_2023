@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
 #include "lavado.h"
-#include "Registrocliente.h"
-#include "sedan.h"
-#include "camioneta.h"
-#include "moto.h"
+#include "RegistroCliente.h"
+#include "Sedan.h"
+#include "Camioneta.h"
+#include "Moto.h"
 using namespace std;
 
 int main(){
