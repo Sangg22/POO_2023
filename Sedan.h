@@ -1,3 +1,6 @@
+//Clase hija de vehiculo en caso de que el vehiculo sea un sedan
+//Santiago Isai González Arista- A01712184	
+//03/12/23
 #ifndef SEDAN_H
 #define SEDAN_H
 #include <iostream>
