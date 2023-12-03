@@ -1,3 +1,6 @@
+//Clase hija de vehiculo en caso de que el vehiculo sea una camioneta
+//Santiago Isai González Arista- A01712184	
+//03/12/23
 #ifndef CAMIONETA_H
 #define CAMIONETA_H
 #include <iostream>
