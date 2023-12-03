@@ -8,7 +8,7 @@
 using namespace std;
 
 int main(){
-	RegistroClientes registro1;
+	RegistroCliente registro1;
 	
 	//ciclo while para agregar mas clientes
 	while(true){
