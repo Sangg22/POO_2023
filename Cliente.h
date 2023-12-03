@@ -5,10 +5,12 @@ using namespace std;
 
 class Cliente{
 	
+	//datos privados del cliente
 	private:
 		string nombre;
 		string numero;
-		
+	
+	//constructores, getters y setters	
 	public:
 		Cliente();
 		Cliente(string nom, string num);
@@ -19,16 +21,19 @@ class Cliente{
 		void imprimeCliente();
 };
 
+//constructor vacio con datos vacios
 Cliente::Cliente(){
 	nombre = "";
 	numero = "";
 }
 
+//datos que se le daran
 Cliente::Cliente(string nom, string num){
 	nombre = nom;
 	numero = num;
 } 
 
+//getters:
 string Cliente::getNom(){
 	return nombre;
 }
@@ -37,6 +42,7 @@ string Cliente::getNum(){
 	return numero;
 }
 
+//setters:
 void Cliente::setNombre(string nom){
 	nombre = nom;
 }
@@ -45,11 +51,11 @@ void Cliente::setNumero(string num){
 	numero = num;
 }
 
+//impresion de datos
 void Cliente::imprimeCliente(){
-	cout<<"Datos del cliente: "<<endl;
-	cout<<"Nombre: "<<nombre<<endl;
-	cout<<"Numero: "<<numero<<endl;
+	cout << "Datos del cliente: " << endl;
+	cout << "Nombre: " << nombre << endl;
+	cout << "Numero: " << numero << endl;
 }
-
 
 #endif
